@@ -1,0 +1,27 @@
+Comandos usados:
+
+   31  mkdir Checkpoint-RafaelVargas
+   32  cd desktop/rafael/Checkpoint-RafaelVargas
+   33  git init
+   34  git remote add origin https://github.com/Rafa0493/Checkpoint-RafaelVargas.git
+   35  touch main.js index.html
+   36  git add .
+   37  git commit -m "commit 01 de RafaelVargas"
+   38  git log
+   39  git push origin main
+   40  git branch
+   41  git branch feature
+   42  git checkout feature
+   43  mkdir Hardware Software SeguridadInformatica
+   44  touch Hardware/resumen.txt
+   45  touch Software/resumen.txt SeguridadInformatica/resumen.txt
+   46  git add .
+   47  git commit -m "commit 02 de RafaelVargas"
+   48  git push origin feature
+   49  git checkout main
+   50  mv main.js resumenHardware.txt
+   51  mv index.html resumenSoftware.txt
+   52  mkdir comandos.txt
+   53  rm comandos.txt
+   54  rm -r comandos.txt
+   55  touch comandos.txt
